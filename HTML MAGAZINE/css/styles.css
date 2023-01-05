@@ -1,0 +1,351 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700);
+body{
+	margin:0 auto;
+	padding: 0;
+	background-color: #F1F0F0;
+}
+header{
+background-color: #00cccc;
+color: white;
+text-align: center;
+}
+input {
+	margin-top:2em;
+}
+header h1{
+	font-family: Lato,helvetica,arial,sans-serif;
+	font-weight: 700;
+	font-size: 3em;
+}
+div h1{
+	font-family: Lato,helvetica,arial,sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+}
+.err{
+	font-family: Lato,helvetica,arial,sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+div span{
+	font-family: Lato,helvetica,arial,sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size:1.10em;
+}
+legend{
+	font-family: Lato,helvetica,arial,sans-serif;
+	font-weight: 700;
+	font-size: 1.67em;
+}
+.tdimage{
+	width:120px;
+	height: 80px;
+}
+img {
+
+max-width: 100%;
+height: auto;
+}
+.img{
+	
+	margin-top: 16px;
+	border: 1px solid grey;
+	border-top: 3px solid black;
+	box-sizing: border-box;
+	padding: 0.5em;
+
+
+}
+.img1{
+	margin-top: 16px;
+	border: 1px solid grey;
+	border-top: 3px solid black;
+	box-sizing: border-box;
+	/*padding: 0.8em 0.5em 3.5em 0.5em;*/
+	padding:20px 18px 30px 20px;
+
+}
+.error{
+	margin-left: 20em;
+}
+.news{
+
+	margin-top: 16px;
+	border: 1px solid grey;
+	border-top:3px solid black;
+	box-sizing: border-box;
+
+}
+.imgright{
+	padding: 5px 0px 0px 5px;
+	margin:-200px 0 0.2px 17px;
+	border: 1px solid grey;
+	border-top: 3px solid black;
+	box-sizing: border-box;
+}
+.floatright{
+	float:right;
+}
+.floatleft{
+	float: left;
+}
+.h2{
+	font-family: Lato,helvetica,arial,sans-serif;
+	font-size: 1.20em;
+	font-weight: 700;
+}
+footer{
+	background-color: black;
+	color: white;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	font-family: Lato,helvetica,arial,sans-serif;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+footer ul li{
+	list-style-type: none;
+}
+div .grid_4 h1{
+	padding-left: 30px;
+}
+hr{
+	width: 100%;
+}
+.margin{
+	margin-top:9%;
+}
+.margin1{
+	margin-top:.60%;
+}
+.ul{
+	margin:0 0 0 .85%;
+	text-align: center;
+	padding: 0;
+	text-align: center;
+	box-sizing: border-box;
+}
+.a{
+	margin-bottom: 16px;
+	color: #F15A22;
+	text-align: center;
+	text-decoration: none;
+	font-family: Lato,helvetica,arial,sans-serif;
+	font-weight: 700;
+	font-size: 1.67em;
+
+}	
+.li{
+	margin-top: 0;
+	float:left;
+	box-sizing: border-box;
+}
+div p{
+	font-family: Lato,helvetica,arial,sans-serif;
+	font-weight: 400;
+	font-size: 1.10em;
+	line-height: 2em;
+}
+form {
+  margin-bottom: 22px;
+}
+input,
+select,
+textarea {
+  font-family: Lato,helvetica,arial,sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+.formstyle label {
+  color: #648880;
+  font-weight: 400;
+}
+.formstyle input,
+.formstyle select,
+.formstyle textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 10px 0;
+  padding: 5px 8px;
+}
+.formstyle input,
+.formstyle textarea {
+  width: 55%;
+}
+.formstyle select {
+  height: 35px;
+  width: 60px;
+}
+.formstyle textarea {
+  height: 85px;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
+.clear{
+	clear: right;
+}
+
+table {
+  font-family: Lato,helvetica,arial,sans-serif;
+  margin: 25px auto;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+  border-bottom: 2px solid #00cccc;
+  
+}
+
+table tr:hover td {
+  color: #00cccc;
+}
+table th, table td {
+  color: #999;
+  border: 1px solid #eee;
+  padding: 12px 35px;
+  border-collapse: collapse;
+  font-family: Lato,helvetica,arial,sans-serif;
+  padding: 5px;
+  text-align: center;
+}
+table th {
+  background: #00cccc;
+  color: white;
+  text-transform: uppercase;
+  font-family: Lato,helvetica,arial,sans-serif;
+  font-size: 1.8em;
+  font-weight: 700;
+}
+td{
+	font-family: Lato,helvetica,arial,sans-serif;
+	font-size: 1.2em;
+	font-weight: 400;
+	color: #fff;
+}
+tr{
+	background: #f4f4f4;
+}
+
+@media screen and (max-width: 1108px) {
+body{
+	background-color: #F1F0F0;
+}
+img{
+	max-width: 100%;
+	height:auto;
+}
+table{
+	text-align: center;
+}
+th{
+	display: none;
+}
+td{
+	display: block;
+	width: 100%;
+	padding: .5%;
+	box-sizing:border-box;
+	font-family: Lato,helvetica,arial,sans-serif;
+	font-size: 1.2em;
+	font-weight: 400;
+	color: #fff;
+}
+.formstyle label {
+  color: #648880;
+  font-weight: 400;
+}
+.formstyle input,
+.formstyle select,
+.formstyle textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 10px 0;
+  padding: 5px 8px;
+}
+.formstyle input,
+.formstyle textarea {
+  width: 95%;
+}
+.formstyle select {
+  height: 35px;
+  width: 60px;
+}
+.formstyle textarea {
+  height: 85px;
+}
+footer ul li{
+	text-align: center;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.img{
+	
+	margin-top: 15em;
+	border: 1px solid grey;
+	border-top: 3px solid black;
+	box-sizing: border-box;
+	padding: 0.5em;
+}
+
+.ul{
+	margin:0 0 0 .85%;
+	text-align: center;
+	padding: 0;
+	text-align: center;
+	box-sizing: border-box;
+}
+.a{
+	margin-bottom: 16px;
+	color: #F15A22;
+	text-align: center;
+	text-decoration: none;
+	font-family: Lato,helvetica,arial,sans-serif;
+	font-weight: 700;
+	font-size: 1.67em;
+
+}	
+.li{
+	padding: 0em 2em 0.80em 1em;
+	width: 100%;
+	text-align: center;
+	list-style-type: none;
+	display: block;
+	box-sizing: border-box;
+}
+.imgright{
+	padding: 5px 0px 0px 5px;
+	margin:0 0 0.2px 0px;
+	border: 2px solid grey;
+	border-top: 5px solid black;
+	box-sizing: border-box;
+}
+.error{
+	margin: 0 auto ;
+
+}
+#tdimage{
+	width:120px;
+	height: 80px;
+} 
+}
